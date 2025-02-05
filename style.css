@@ -1,0 +1,65 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(4, 21, 39);
+    color: white; 
+}
+
+.container {
+    max-width: 1200px;
+    margin: float left;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.container img {
+    width: 300px;
+    height: 250px;
+}
+
+/* Ptext is the text under the h1 title text */
+.ptext {
+    font-size: 18px;
+    margin-top: 0px;
+    font-family: 'Helvetica Neue Light', Arial, sans-serif;
+    opacity: 0.85;
+}
+
+.navbar {
+    background-color: transparent; /* Completely transparent navbar */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: flex-start; /* Align navbar items to the left */
+    
+}
+.navbar {
+    justify-content: space-between; /* Space between Home and other items */
+}
+
+.navbar .nav-item:first-child {
+    margin-right: auto; /* Push Home to the left */
+}
+.nav-item {
+    text-decoration: none;
+    color: #ffffff; /* Navbar text color */
+    margin-right: 20px; /* Spacing between links */
+    font-size: 20px;
+    transition: color 0.3s ease, border-bottom 0.3s ease;
+    border-bottom: 1px solid transparent;
+    background-color: rgb(4, 21, 39);
+    padding: 7px 10px;
+    border-radius: 15px;
+    border-color: #9FE0EE;
+}
+
+/* Make Home bold */
+.nav-item:first-child {
+    font-weight: bold; /* Make Home bold */
+}
+
+/* Hover effect */
+.nav-item:hover {
+    color: #CE845E; /* Change color on hover */
+    
+}
